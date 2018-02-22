@@ -1,0 +1,6 @@
+.vs
+.vscode
+.idea
+*.dcu
+*.exe
+*.ddp
