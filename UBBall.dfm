@@ -1,6 +1,6 @@
 object MainForm: TMainForm
-  Left = 245
-  Top = 141
+  Left = 475
+  Top = 246
   Width = 572
   Height = 540
   Caption = 'Bouncing Ball Example'
@@ -32,7 +32,7 @@ object MainForm: TMainForm
     Height = 13
     Caption = 'Coefficient of Elasticity'
   end
-  object CentralPanel: TPanel
+  object CPanel: TPanel
     Left = 257
     Top = 14
     Width = 224

@@ -1,4 +1,4 @@
-unit UBBal;
+unit UBBall;
 
 interface
 
@@ -25,7 +25,7 @@ type
   end;
 
 var
-  MainForm: TForm1;
+  MainForm: TMainForm;
 
 implementation
 
@@ -91,7 +91,7 @@ Begin
   until stopped;
 end;
 
-procedure TForm1.ResetBtnClick(Sender: TObject);
+procedure TMainForm.ResetBtnClick(Sender: TObject);
 begin
   tag := 1;
   RShape.top := initTop;
